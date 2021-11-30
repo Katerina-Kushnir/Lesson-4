@@ -1,0 +1,44 @@
+* {
+    color: white;
+    box-sizing: border-box;
+}
+
+.left {
+    width: 30%;
+    float: left;
+}
+
+.right {
+    width: 70%;
+    float: right;
+}
+
+.two-right {
+    width: 40%;
+    float: right;
+}
+
+.three-left {
+    width: 60%;
+    float: left;
+}
+
+.three-left >div {
+    display: inline-block;
+}
+
+.pink, .sky {
+    width: 30%;
+}
+
+.yellow {
+    width: 40%;
+}
+
+.pink {
+    float: right;
+}
+
+.sky {
+    float: left;
+}

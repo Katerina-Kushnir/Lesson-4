@@ -1,0 +1,13 @@
+ul {
+    list-style: none;
+}
+
+.hidden {
+    background-color: red;
+    display: none;
+}
+
+ul > li:hover .hidden {
+    display: block;
+}
+

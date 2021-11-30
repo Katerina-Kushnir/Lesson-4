@@ -1,0 +1,13 @@
+div {
+    border: 2px solid black;
+    width: 100px;
+    display: inline;
+}
+
+div:nth-child(even) {
+    float: left;
+}
+
+div:nth-child(odd) {
+    float: right;
+}

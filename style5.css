@@ -1,0 +1,28 @@
+span, div div {             
+    border: solid 2px black;             
+    width: 50px;             
+    height: 50px;          
+}   
+
+div.a span {
+    display: block;
+}
+
+div.a span:nth-child(odd) {
+    display: inline;
+}
+
+div.b div:nth-child(even) {
+    display: inline;
+}
+
+div.c span:nth-child(even) {
+    display: inline-block;
+}
+
+div.a, div.b, div.c {
+    display: list-item;
+    list-style-type: upper-latin;
+    margin-left: 30px;
+}
+

@@ -1,0 +1,21 @@
+div:nth-child(odd) {
+    background-color: green;
+    width: 20%;
+}
+
+div:nth-child(even) {
+    background-color: red;
+    width: 80%;
+}
+
+div:nth-child(1) {
+    float: right;
+}
+
+div:nth-child(3) {
+    float: left;
+}
+
+div:nth-child(4) {
+    float: right;
+}

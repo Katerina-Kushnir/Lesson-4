@@ -1,0 +1,13 @@
+.red-left, .red-right {
+    background-color: red;
+    width: 30%;
+    height: 55px;
+}
+
+.red-right {
+    float: right;
+}
+
+.red-left {
+    float: left;
+}
